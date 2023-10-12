@@ -1,0 +1,199 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+    
+
+   
+}
+
+
+:root{
+    --colorPrincipal: #118ab2
+}
+
+body{
+    font-family: 'Dosis', sans-serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #edf2f4
+}
+.login-design{
+    width: 500px;
+}
+
+.waves{
+    background-image: url(img/wave.png);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.login {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.login-data{
+ 
+    text-align: center;
+    width: 100%;
+    padding: 65px 30px;
+
+}
+.login-data h1{
+    font-weight: 200 !important;
+    margin-bottom: 20px;
+    
+}
+
+.login-data i{
+    margin-left: 10px;
+    color: var(--colorPrincipal);
+}
+
+.input-group{
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+}
+
+.login-data h1{
+    margin-bottom: 40px;
+}
+
+.input-fill input{
+    border: none;
+   border-bottom:  3px solid #848f9A;
+   width: 400px;
+   height: 3rem;
+   font-size: 1.0625rem;
+   padding-left: 4px;
+   line-height: 147.6%;
+   padding-top: 1rem;
+   padding-bottom: 7px;
+  
+
+   
+}
+
+.input-fill input:focus{
+    outline: none;
+    border-color: var(--colorPrincipal);
+}
+
+
+
+.input-fill input:hover{
+    background-color: #E9ECFF;
+}
+
+ .input-fill input:focus + .input-label{
+    top: 0;
+    margin-bottom: 2rem;
+    color: var(--colorPrincipal);
+     
+}  
+
+
+.input-fill input:focus ~ i{
+    color: var(--colorPrincipal);
+}
+
+
+.input-label  {
+    
+    position: absolute;
+    top: 13px;
+    left: 30px;
+    line-height: 0px;
+    color: #848f9A;
+    transition  :top .2s;
+    font-weight: 700;
+}
+
+.input-fill i{
+    position : absolute ;
+    top: 4px;
+    left: 0;
+    color: #848f9A;
+   
+
+}
+
+/* Logo admi */
+
+.inicio{
+    position: relative;
+}
+
+.inicSe{
+    margin-bottom: 20px !important;
+}
+
+.inicio img{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+    position: relative;
+    border: 1px solid black;
+    margin-bottom: 30px;
+
+}
+
+.Rbutton{
+    margin-top: 30px !important;
+    width: 100% !important;
+    text-align: center !important;
+    
+}
+
+.login-form a{
+    display: block;
+    width: 60%;
+    text-align: right;
+    text-decoration: none;
+    color: #848f9A;
+    margin-bottom: 1.3rem;
+    font-weight: 800;
+    transition: .3s ease-in-out all;
+    font-size: 18px;
+}
+
+.login form a:hover{
+    color: var(--colorPrincipal);
+}
+
+.btn-login{
+    border-radius: 3rem;
+    width: 45%;
+    border: 1px solid var(--colorPrincipal);
+    line-height: 1.6rem;
+    font-size: 1.2rem;
+    background-color: var(--colorPrincipal);
+    color: white;
+    padding: 0.5rem;
+    transition: .3s ease-in-out all;
+    font-weight: 400;
+}
+
+.btn-login:hover{
+    cursor: pointer;
+    background-color: white;
+    color: var(--colorPrincipal);
+
+
+}
+

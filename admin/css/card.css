@@ -1,0 +1,327 @@
+.img-thumbnail {
+
+    height: 350px;
+}
+
+.card.border-primary{
+    width: 350px;
+
+}
+
+.carPresentation{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    margin-top: 30px;
+}
+
+
+.card-title {
+   float: none !important; 
+   text-align: center;
+  font-size: 20px;
+}
+
+
+.busqueda{
+  width: 200px;
+  border: none;
+  outline: none;
+  transition: 1s all ease;
+  padding: 5px;
+}
+
+.busqueda:focus{
+  transform: scale(1.1);
+}
+
+.logo{
+  width: 40px;
+}
+
+
+.container{
+  width: 100%;
+  margin: 50px auto;
+}
+
+.row {
+ 
+  width: 100%;
+}
+
+/* Modo oscuro */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #F1F1F1;
+  font-family: "Roboto", sans-serif;
+  transition: 0.3s ease all;
+}
+
+
+body.dark-mode .card-body .learn-more .button-text{
+ color: rgb(255, 255, 255);
+}
+
+
+.contenedor {
+  max-width: 1000px;
+  width: 90%;
+  margin: auto;
+  padding: 50px 0;
+}
+
+nav {
+  background: #FEFEFE;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  border-radius: 5px;
+  transition: 0.3s ease all;
+  box-shadow: 10px 10px 20px rgba(170, 170, 170, 0.16);
+  justify-content: center;
+}
+
+.pagination{
+  margin-top: 10px;
+
+}
+
+/* Precio */
+
+strong.precio {
+  background: #457b9d;
+  position: absolute;
+  top: 10px;
+  border-radius: 10px;
+  padding: 5px 15px;
+  left: 0;
+  color: #f1faee;
+  font-size: 20px;
+}
+
+
+/* Cantidad */
+
+
+.cantidad {
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+}
+
+
+/* Modo oscuro */
+.switch {
+  background: #343D5B;
+  border-radius: 1000px;
+  border: none;
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  outline: none;
+  margin-top: 5px;
+  box-shadow: rgba(255, 255, 255, 0.12) 0px 2px 4px 0px, rgba(255, 255, 255, 0.32) 0px 2px 16px 0px;
+}
+.switch::after {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 30px;
+  border: none;
+  position: absolute;
+  background-color: #F1F1F1;
+  top: 0;
+  left: 0;
+  right: unset;
+  border-radius: 100px;
+  transition: 0.3s ease all;
+  box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.2);
+}
+.switch.active {
+  background: orange;
+  color: #000;
+}
+.switch.active::after {
+  right: 0;
+  left: unset;
+}
+.switch span {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  display: block;
+  background: none;
+  color: #fff;
+}
+
+.grid {
+  display: grid;
+  grid-gap: 40px 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 40px 0;
+}
+
+
+
+/*# sourceMappingURL=estilo.css.map */
+
+a.button {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    vertical-align: middle;
+    text-decoration: none;
+    background: transparent;
+    padding: 0;
+    font-size: inherit;
+    font-family: inherit;
+  }
+  
+  a.learn-more {
+    width: 12rem;
+    height: auto;
+  }
+  
+  a.learn-more .circle {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: relative;
+    display: block;
+    margin: 0;
+    width: 3rem;
+    height: 3rem;
+    background: #282936;
+    border-radius: 1.625rem;
+  }
+  
+  a.learn-more .circle .icon {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background: #fff;
+  }
+  
+  a.learn-more .circle .icon.arrow {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    left: 0.625rem;
+    width: 1.125rem;
+    height: 0.125rem;
+    background: none;
+  }
+  
+  a.learn-more .circle .icon.arrow::before {
+    position: absolute;
+    content: "";
+    top: -0.29rem;
+    right: 0.0625rem;
+    width: 0.625rem;
+    height: 0.625rem;
+    border-top: 0.125rem solid #fff;
+    border-right: 0.125rem solid #fff;
+    transform: rotate(45deg);
+  }
+  
+  a.learn-more .button-text {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: absolute;
+    bottom: -1%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+    padding: 0.75rem 0;
+    margin: 0 0 0 1.85rem;
+    color: #282936;
+    font-weight: 700;
+    line-height: 1.6;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  
+  a:hover .circle {
+    width: 100%;
+  }
+  
+  a:hover .circle .icon.arrow {
+    background: #fff;
+    transform: translate(1rem, 0);
+  }
+  
+  a:hover .button-text {
+    color: #fff;
+  }
+  
+
+  /* Carrito de compras */
+  .CartBtn {
+    width: 160px;
+    height: 60px;
+    border-radius: 12px;
+    border: none;
+    background-color: rgb(255, 208, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition-duration: .5s;
+    overflow: hidden;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.103);
+    position: relative;
+  }
+  
+  .IconContainer {
+    position: absolute;
+    left: -50px;
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    z-index: 2;
+    transition-duration: .5s;
+  }
+  
+  .icon {
+    border-radius: 1px;
+  }
+  
+  .text {
+    height: 100%;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(17, 17, 17);
+    z-index: 1;
+    transition-duration: .5s;
+    font-size: 1.04em;
+    font-weight: 600;
+  }
+  
+  .CartBtn:hover .IconContainer {
+    transform: translateX(58px);
+    border-radius: 40px;
+    transition-duration: .5s;
+  }
+  
+  .CartBtn:hover .text {
+    transform: translate(10px,0px);
+    transition-duration: .5s;
+  }
+  
+  .CartBtn:active {
+    transform: scale(0.95);
+    transition-duration: .5s;
+  }
